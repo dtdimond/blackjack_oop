@@ -1,0 +1,33 @@
+Objects required:
+
+card
+  - has suit
+  - has value
+
+deck
+  - has cards (array?)
+  - fills up (with multiple sets of cards)
+  - deals initial hand
+  - draws : will return a popped card
+  - checks if empty
+
+player
+  - has cards
+  - hits
+  - displays hand
+  - get score
+
+dealer < player
+  - do dealer sequence
+    - hit until >16
+
+game_engine
+  - does game logic
+    - create objects
+    - init deck
+    - deal cards
+    - ask hit/stay 
+    - tell dealer to do sequence
+    - check who won
+  - has win_total
+  - has loss_total
